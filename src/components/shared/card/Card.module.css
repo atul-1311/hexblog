@@ -1,0 +1,66 @@
+
+.pbgg{
+    text-decoration: none;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.pbgg:hover{
+    transform: scale(1.1);
+    z-index: 90;
+}
+.pbgg1{
+    width: 100%;
+    background: #303245;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    border: 1px solid #303245;
+}
+.pbgg1 img{
+    width: 200px;
+    height: 155px;
+}
+.pbgg2{
+    width: 100%;
+    border: 1px solid #303245;
+    padding: 10px 0px;
+    background: white;
+    text-overflow: ellipsis;
+}
+.pbgg button{
+    margin-left: 10px;
+    padding: 5px 20px;
+    background: #CB8737;
+    color: #fffefe;
+    letter-spacing: 1px;
+    font-weight: 400;
+    border: none;
+}
+.pbgg h4{
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+    color: #383131;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pbgg h5{
+    text-decoration: none;
+    margin-top: 0px;
+    padding: 0px 10px;
+    color: #545454;
+    font-weight: 400;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

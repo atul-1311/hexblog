@@ -1,0 +1,129 @@
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.basicInfo{
+    width: 40%;
+    margin-top: 50px;
+}
+.nameTar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.avatar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #CB8737;
+    padding: 5px;
+}
+.name{
+    width: 90%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #303245;
+}
+.about{
+    width: 70%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(133, 132, 132);
+    font-style: oblique;
+}
+.socialMedia{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+}
+.social input{
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: 1px solid #CB8737;
+    border-radius: 5px;
+    color: rgb(4, 88, 4);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.social input:focus{
+    outline: none;
+    border-color:#9ecaed;
+    box-shadow:0 0 6px #9ecaed;
+}
+
+
+
+
+
+
+
+.moreInfo{
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stats{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 170px 170px 170px;
+    column-gap: 10px;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #303245;
+    padding: 20px 0px 0px 0px;
+    background: #ecf8ee;
+}
+.actions img{
+    height: 50px;
+    width: 50px;
+}
+.actions h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #303245;
+}

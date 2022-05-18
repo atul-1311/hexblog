@@ -1,0 +1,40 @@
+
+.pbgg{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 20px 0px;
+    transition: all 0.3s ease-in-out;
+}
+.pbgg img{
+    width: 200px;
+    height: 200px;
+    /* object-fit: contain; */
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.pbgg img:hover{
+    transform: scale(1.05);
+    z-index: 90;
+}
+.pbgg2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 0px; */
+    margin-top: 10px;
+    background: white;
+    text-overflow: ellipsis;
+}
+.pbgg h3{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #303245;
+    font-style: italic;
+}

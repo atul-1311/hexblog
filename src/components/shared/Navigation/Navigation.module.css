@@ -1,0 +1,67 @@
+.navbar{
+    background: #303245;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    max-height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 7%;
+    z-index: 100;
+}
+.navleft{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+.navlinks{
+    margin: 0px 30px
+}
+.navlinks .links{
+    margin: 0px 10px;
+    color: #e6e1e1;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.navlinks .links:hover{
+    color: #bcb9b9;
+}
+.navright{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.navright .search{
+    height: 22px;
+    width: 22px;
+    margin: 0px 30px;
+    cursor: pointer;
+}
+.navright button{
+    border: 1px solid #e6e1e1;
+    border-radius: 10px;
+    background: transparent;
+    color: #e6e1e1;
+    padding: 8px 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.navright button:hover{
+    background: #14151d;
+}
+
+.user{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

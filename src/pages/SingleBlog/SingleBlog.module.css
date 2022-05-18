@@ -1,0 +1,40 @@
+.content{
+    margin-top: 150px;
+    width: 1500px;
+    padding: 0px 100px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlehead{
+    color: #565866;
+    letter-spacing: 1px;
+}
+.titlesubhead{
+    color: rgb(119, 119, 121);
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.subhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.read{
+    font-weight: 400;
+    color: #cb8737;
+    letter-spacing: 1px;
+}
+.name{
+    margin-right: 50px;
+    color: #cb8737;
+    letter-spacing: 1px;
+}
+.bloghex{
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    color: #4f4f50;
+}

@@ -1,0 +1,145 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #303245;
+}
+
+.card{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otpcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headtext{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headtext h1{
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: aliceblue;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.headtext h3{
+    margin-top: 0px;
+    color: rgb(152, 150, 150);
+    font-weight: 400;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+.userPic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.userPicDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 2px double rgb(152, 150, 150);
+    border-radius: 50%;
+}
+.userPicDiv div{
+    background: #282a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    border: 2px double rgb(152, 150, 150);
+    border-radius: 50%;
+}
+.userPicDiv div img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #282a3a;
+}
+.otpform{
+    width: 90%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input label{
+    /* display: none; */
+    color: #b57731;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.input label:hover{
+    color: #915f27;
+}
+.input input{
+   display: none;
+}
+.input input::placeholder{
+    
+}
+.input input:focus{
+  
+}
+.input img{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translate(-50%,-50%);
+    height: 20px;
+    width: 18px;
+    background: transparent;
+}
+.proceed{
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px 0px;
+    background: #b57731;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.proceed:hover{
+    background: #915f27;
+}
+.otpform h3{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-weight: 400;
+    color:  rgb(134, 136, 137);
+}
+.otpform h4{
+    font-size: 12px;
+    margin-top: 0px;
+    font-weight: 400;
+    color:  rgb(134, 136, 137);
+}
+.otpform h5{
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.16);
+}
